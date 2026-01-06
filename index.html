@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Swipe Shapes</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="app__header">
+      <h1>Swipe Shapes</h1>
+      <p>Una home tipo Tinder con figure geometriche.</p>
+    </header>
+
+    <section class="deck" id="deck" aria-live="polite"></section>
+
+    <section class="empty" id="empty-state" hidden>
+      <p>Nessun’altra card</p>
+      <button class="btn btn--reset" id="reset-btn">Ricomincia</button>
+    </section>
+
+    <section class="actions" aria-label="Azioni">
+      <button class="btn btn--nope" id="nope-btn" aria-label="NOPE">❌</button>
+      <button class="btn btn--like" id="like-btn" aria-label="LIKE">❤️</button>
+    </section>
+  </main>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
